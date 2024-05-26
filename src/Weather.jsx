@@ -36,7 +36,7 @@ function Weather() {
                 <br />
                 <button id="btn"onClick={getData} className="bg-black text-white rounded-lg p-1 text-xs mt-2">Get Report ⚡️</button>
                 {error && <p className="text-red-500 text-xs mt-2">{error}</p>}
-                <p id="weather"className="text-xs mt-2">Degree: {deg} | City: {city} | Weather: {desc}</p>
+                <p id="weather"className="text-xs mt-2">Temperature: {deg} | City: {city} | Weather: {desc}</p>
             </div>
         </div>
     );
